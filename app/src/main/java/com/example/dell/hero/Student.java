@@ -1,10 +1,12 @@
 package com.example.dell.hero;
 
+import java.io.Serializable;
+
 /**
  * Created by Dell on 15-Jan-18.
  */
 
-public class Student {
+public class Student implements Serializable{
 
     private int mImage;
     private String mName;
